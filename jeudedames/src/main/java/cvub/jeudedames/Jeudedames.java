@@ -26,5 +26,8 @@ public class Jeudedames {
         System.out.println("J1 length : " + jeu.getJ1().size());
         System.out.println("Ok");
         System.out.println("estDame : " + jeu.getJ1().get(0).isDame());
+
+        Ui ui = new Ui();
+        ui.displayJeu(jeu);
     }
 }
