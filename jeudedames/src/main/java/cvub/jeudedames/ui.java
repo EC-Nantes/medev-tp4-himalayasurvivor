@@ -20,8 +20,6 @@ public class ui {
         
     }
     
-    public void
-    
     private Case inputCase()
     {
         Scanner sc = new Scanner(System.in);
