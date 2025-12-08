@@ -35,7 +35,7 @@ public class Case {
     {
         coordUI--;
         this.x = coordUI % 5;
-        this.y = coordUI % 5;
+        this.y = coordUI / 5;
     }
     
     public Case(int ix, int iy)
