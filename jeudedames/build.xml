@@ -17,8 +17,7 @@
     <target name="build" description="Build the application"
     depends="checkDependencies" if="src.available">
         <echo message="Building application..."/>
-            <javac srcdir="${src.location}" destdir="${classes.location}"
-        includeAntRuntime="false"/>
+            <javac srcdir="${src.location}" destdir="${classes.location}" includeAntRuntime="false"/>
         <echo message="Done!"/>
     </target>
 </project>
